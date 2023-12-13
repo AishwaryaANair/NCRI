@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask App</title>
+</head>
+<body>
+    <form method="POST" action="/">
+        <label for="sentence">Enter a sentence:</label><br>
+        <input type="text" id="sentence" name="sentence"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <div>
+        {% if sentence %}
+            <h3>Output:</h3>
+            <p>{{ sentence }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
