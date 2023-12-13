@@ -404,5 +404,5 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
-
+tmp_trainer
 # End of https://www.toptal.com/developers/gitignore/api/macos,python,pycharm,flask
