@@ -16,8 +16,6 @@ upload the notebook (ncri.ipynb) to gdrive
 and run it using google colab with the 
 the datasets and pretrained model uploaded 
 to drive.
-Given the short timeframe I had, the 
-execution time was shaved from 20s to 1min approx on colab. 
 On flask the time difference is about 56 minutes.
 I believe I could've made the program a bit faster 
 if I had a bit more time.
